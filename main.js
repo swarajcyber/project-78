@@ -11,9 +11,9 @@ function update()
       }
     
     //Debug the code to store list of images in updatedImage. Use images[i]
-    var updatedImage =["C:\Users\aneet\OneDrive\Desktop\cruise\IMG_4786.JPG","C:\Users\aneet\OneDrive\Desktop\cruise\IMG_4400.JPG","C:\Users\aneet\OneDrive\Desktop\cruise\IMG_4409.JPG","C:\Users\aneet\OneDrive\Desktop\cruise\IMG_4406.JPG","C:\Users\aneet\OneDrive\Desktop\cruise\IMG_4629.JPG"];
+    var updatedImage =images[i];
     //Debug the code to store list of names in updatedName. Use names[i]
-    var updatedName = ["SHANKARAO PATIL","MAHESH PATIL","SARANSH PATIL","ANITA PATIL","MINA PATIL"] ;
+    var updatedName =names[i] ;
  
     document.getElementById("family_member_image").src = updatedImage;
     document.getElementById("family_member_name").innerHTML = updatedName;
